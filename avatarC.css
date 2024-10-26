@@ -102,19 +102,44 @@ ul a:hover{
 }
 
 /* الشاشات الصغيرة (الهواتف) */
-@media (max-width: 767px) {
-    /* أضف الأنماط هنا */
-  }
-  
-  /* الشاشات المتوسطة (الأجهزة اللوحية) */
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* أضف الأنماط هنا */
-  }
-  
-  /* الشاشات الكبيرة (الأجهزة المكتبية) */
-  @media (min-width: 992px) and (max-width: 1199px) {
-    /* أضف الأنماط هنا */
-  }
+@media (max-width: 480px) {
+  /* أضف الأنماط هنا */
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 10px;
+}
+
+/* الشاشات المتوسطة (الأجهزة اللوحية) */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* أضف الأنماط هنا */
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 15px;
+}
+
+/* الشاشات الكبيرة (الأجهزة المكتبية) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* أضف الأنماط هنا */
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* الشاشات الكبيرة جداً (الأجهزة المكتبية الكبيرة) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* أضف الأنماط هنا */
+  font-size: 20px;
+  line-height: 1.8;
+  margin: 25px;
+}
+
+/* الشاشات الكبيرة جداً جداً (الأجهزة المكتبية الكبيرة جداً) */
+@media (min-width: 1201px) {
+  /* أضف الأنماط هنا */
+  font-size: 22px;
+  line-height: 2;
+  margin: 30px;
+}  }
   
   /* الشاشات الكبيرة جداً (الأجهزة المكتبية الكبيرة) */
   @media (min-width: 1200px) {
